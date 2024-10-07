@@ -1,0 +1,24 @@
+# Compress Media Script
+
+This project includes a Python script and unit tests for compressing media files that exceed 3.5 MB in size. Supported file types include PDFs, images (JPEG, PNG, GIF, BMP, TIFF), MP3s, and MP4s.
+
+## Files
+
+- `compress_media.py`: The main script for compressing media files.
+- `test_compress_media.py`: Unit tests for the `compress_media.py` script.
+
+## Requirements
+
+- Python 3.x
+- Python Libraries:
+  - Pillow (`pip install Pillow`)
+- System Utilities:
+  - FFmpeg
+  - Ghostscript
+
+## Usage
+
+### Compress a Single File
+
+```bash
+python compress.py /path/to/your/file.pdf
